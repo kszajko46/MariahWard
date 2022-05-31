@@ -1,3 +1,25 @@
-h1 {
-  color: blue;
+:root {
+  --background-color: #fcf8f3;
+  --main-color: #ffaaa5;
+  --secondary-color: #698474;
+  --popOf-color: #ffd3b6;
+  --main-font: "Fira Sans", sans-serif;
+  --secondary-font: "Dancing Script", cursive;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--main-font);
+}
+
+header {
+  text-align: center;
+  background-color: var(--popOf-color);
+  margin: 25px 50px;
+  padding: 100px 40px;
+  border-radius: 4px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 80px;
+  color: var(--secondary-color);
 }
